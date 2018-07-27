@@ -1,0 +1,11 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/vendor.js": "/js/vendor.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/landing.js": "/js/landing.js",
+    "/js/dashboard.js": "/js/dashboard.js",
+    "/js/scrollreveal.js": "/js/scrollreveal.js",
+    "/img/landing.jpg": "/img/landing.jpg",
+    "/img/dashboard.jpg": "/img/dashboard.jpg"
+}

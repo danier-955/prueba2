@@ -1,0 +1,1 @@
+window.sr=ScrollReveal(),document.querySelectorAll('a[href^="#"]').forEach(function(t){t.addEventListener("click",function(t){t.preventDefault(),document.querySelector(this.getAttribute("href")).scrollIntoView({behavior:"smooth"})})}),$(document).ready(function(){$("form").submit(function(){$(this).find('button[type="submit"]').attr("disabled",!0)})});

@@ -1,0 +1,105 @@
+////////////////
+// Variables //
+//////////////
+@import "variables";
+
+/////////////////////////
+// Daemonite-material //
+///////////////////////
+@import '~daemonite-material/assets/scss/material';
+
+/////////////////
+// Datatables //
+////////////////
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.css';
+@import '~datatables.net-responsive-bs4/css/responsive.bootstrap4.css';
+
+////////////////
+// Navdrawer //
+//////////////
+@include media-breakpoint-up(lg) {
+	.content-wrapper {
+    margin-left: $navdrawer-width;
+	}
+	.navbar-full {
+  	.invisible-lg {
+  		display: none;
+  	}
+  	.invisible-lg:first-child + .navbar-brand {
+	    margin-left: 0;
+	  }
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.navdrawer-lg-shadow {
+    -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+	}
+}
+
+////////////////
+// Jumbotron //
+//////////////
+.jumbotron-landing {
+  background-image: url(../img/landing.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+  padding-top: 7rem;
+}
+
+.jumbotron-user {
+  margin: -0.26rem 0rem 0rem 0rem;
+  padding: 5rem 1.2rem 0.6rem 1.2rem;
+  color: $white;
+  background-image: url(../img/dashboard.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+@include media-breakpoint-down(md) {
+  .jumbotron-user {
+    margin: -0.45rem 0rem 0rem 0rem;
+  }
+}
+
+//////////////
+// Buttons //
+////////////
+.btn-primary {
+  color: $white;
+
+  @include active-focus-hover {
+      color: $white;
+    }
+}
+
+///////////////////////
+// Background color //
+/////////////////////
+.bg-primary {
+  color: $white;
+}
+
+////////////////
+// Gradients //
+//////////////
+.gradient-auth {
+  height: 100vh;
+  background: $material-color-orange-600;
+  background: -moz-linear-gradient(0deg, $material-color-orange-600 0%, $material-color-lime-200 56.00000000000001%, $material-color-light-blue-300 100%, $material-color-light-blue-200 100%);
+  background: -webkit-linear-gradient(0deg, $material-color-orange-600 0%, $material-color-lime-200 56.00000000000001%, $material-color-light-blue-300 100%, $material-color-light-blue-200 100%);
+  background: linear-gradient(0deg, $material-color-orange-600 0%, $material-color-lime-200 56.00000000000001%, $material-color-light-blue-300 100%, $material-color-light-blue-200 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="$material-color-orange-600",endColorstr="$material-color-light-blue-200",GradientType=1);
+}
+
+////////////
+// Login //
+//////////
+.m-button-logo {
+  margin-top: -27px;
+  margin-bottom: -10px;
+}
