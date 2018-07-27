@@ -9,6 +9,8 @@
 	  </ol>
 	</nav>
 
+	<p class="typography-display-1">Cambios hechos desde mi fork</p>
+
 	<div class="jumbotron text-center">
 	  <h1 class="typography-display-3">Bienvenid@ a {{ config('app.name') }}</h1>
 	  <p class="typography-headline">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>

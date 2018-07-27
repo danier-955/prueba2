@@ -69,6 +69,11 @@ class Alumno extends Model
     |
     */
 
+    public function prueba()
+    {
+        return true;
+    }
+
     /*
     |----------------------------------------------------------------------
     | Scopes
